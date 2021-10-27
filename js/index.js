@@ -19,9 +19,8 @@ $(document).ready(function(){
     // auto slide part
     setInterval(function(){
         var $hover = $("#main").hasClass("hover");  
-        var $stop = $("#slider_02 .slider_play").hasClass("stop");
 
-        if($hover == true || $stop == true){
+        if($hover == true){
 
         }else{
             var $show = $("#main ul li.show").index();
